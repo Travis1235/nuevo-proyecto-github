@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Napole Automobile</title>
+    </head>
+
+<body>
+    <!-- HEADER ; ENCABEZADO -->
+    <header class="logoNav">
+        <nav>
+
+            <ul class="navegador">
+                <!-- list items -->
+                <img src="./imagenes/555.png" alt="logo-de-agencia" high="200px" width="200px">
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./vehiculos.html">VEHICULOS</a></li>
+                <li><a href="./postventa.html">POSTVENTA</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+                <li><a href="./nosotros.html">QUIENES SOMOS</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- MAIN: contenido principal -->
+    <main class="contact">
+        <h2>Contactate con nosotros</h2>
+        <br><br>
+        <!-- GET: ingformacion no sensible -/ post: informacion sensible -->
+        <form action="#" method="get">
+            <p>Nombre y Apellido</p>
+            <!-- placeholder indica en letra gris -->
+            <!-- input entrada del usuario -->
+            <input type="text" placeholder="Nombre Completo" name="nombre-completo">
+            <br><br>
+            <label for="mail">Email</label>
+            <br><br>
+            <input type="email" placeholder=" Juanito123@gmai..com">
+            <br><br>
+            <!--  La caja de texto se hace con textarea -->
+            <textarea class="comentario" name="" id="" cols="30" rows="10" placeholder="Dejanos tu consulta"></textarea>
+            <br><br>
+            <!-- Checkbox -->
+            <label>
+                <input type="checkbox">
+                <span>Suscribirme al newsletter</span>
+            </label>
+            <br><br>
+            <!-- Radio button -->
+            <label>
+                <span>Hombre</span>
+                <input type="radio" name="sexo" value="hombre">
+
+                <span>Mujer</span>
+                <input type="radio" name="sexo" value="mujer">
+
+                <span>Otro</span>
+                <input type="radio" name="sexo" value="otro">
+
+            </label>
+            <br><br>
+            <select name="pais">
+                <option value="seleccion">Seleccione su pais</option>
+                <option value="arg">Argentina</option>
+                <option value="cl">Chile</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Comentar">
+            <input type="reset" value="Borrame todo">
+
+        </form>
+    </main>
+    <br><br>
+    <!-- footer : pie de pagina -->
+    <footer class="footer">
+        <div class="informacionFooter">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
